@@ -23,6 +23,12 @@ public:
 private slots:
     void on_pushButton_clicked();
 
+    void on_pushButton_2_clicked();
+
+    void on_id_textEdited(const QString &arg1);
+
+    void on_id_textChanged(const QString &arg1);
+
 private:
     Ui::mainwindow3 *ui;
     mainwindow2 *main2;

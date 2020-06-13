@@ -14,7 +14,7 @@ mainwindow2::mainwindow2(QWidget *parent) :
 {
     ui->setupUi(this);
 
-    this->setWindowTitle("请选择你的数据库和表格");
+    this->setWindowTitle("Выберите базу данных");
     this->model=nullptr;
     this->main3=nullptr;
 }
@@ -50,7 +50,7 @@ bool mainwindow2::ShowTable(const QModelIndex &index)
 {
     if(model!=nullptr)
     {
-        model->clear();//释放内存
+        model->clear();
         delete model;
     }
     model = new QStandardItemModel(this);

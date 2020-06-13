@@ -14,7 +14,7 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>52</x>
@@ -29,7 +29,7 @@
        <item>
         <widget class="QLabel" name="label">
          <property name="text">
-          <string>数据库列表(Databases List)</string>
+          <string>Список баз данных</string>
          </property>
         </widget>
        </item>
@@ -82,7 +82,7 @@
        <item>
         <widget class="QLabel" name="label_2">
          <property name="text">
-          <string>列表(Table List)</string>
+          <string>Таблица БД</string>
          </property>
         </widget>
        </item>
@@ -126,7 +126,7 @@
      <x>0</x>
      <y>0</y>
      <width>725</width>
-     <height>28</height>
+     <height>26</height>
     </rect>
    </property>
   </widget>

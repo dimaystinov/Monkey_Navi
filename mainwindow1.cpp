@@ -52,7 +52,7 @@ MainWindow1::~MainWindow1()
 
 void MainWindow1::on_pushButton_3_clicked()
 {
-    QMessageBox::information(this,"Good Bye","再见Have a Good Day");
+    QMessageBox::information(this,"Досвидания","Хорошего Дня!");
     exit(0);
 }
 
@@ -60,7 +60,7 @@ void MainWindow1::on_pushButton_clicked()
 {
     if(Init())
        {
-        QMessageBox::information(this,"提示","连接成功，连接到Mysql",0);
+        QMessageBox::information(this,"Сообщение","Соединение с Mysql установлено",0);
         this->hide();
       //  qDebug()<<this->db->databaseName();
         mainwindow2*main2=new mainwindow2;
@@ -69,11 +69,11 @@ void MainWindow1::on_pushButton_clicked()
         main2->show();
        }
        else {
-            QMessageBox::information(this,"提示","连接失败，检查输入信息，和数据库配置",0);
+            QMessageBox::information(this,"Ошибка","Ошибка подключения",0);
        }
 }
 
 void MainWindow1::on_pushButton_2_clicked()
 {
-    QMessageBox::information(this,"提示","暂时没制作",0);
+    QMessageBox::information(this,"Сообщение","Ок!",0);
 }
