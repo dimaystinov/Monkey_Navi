@@ -172,7 +172,10 @@
         </widget>
        </item>
        <item>
-        <spacer name="horizontalSpacer_5">
+        <widget class="QLineEdit" name="user"/>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_15">
          <property name="orientation">
           <enum>Qt::Horizontal</enum>
          </property>
@@ -185,7 +188,17 @@
         </spacer>
        </item>
        <item>
-        <widget class="QLineEdit" name="user"/>
+        <spacer name="horizontalSpacer_5">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
        </item>
        <item>
         <spacer name="horizontalSpacer_6">
@@ -346,6 +359,14 @@
      <height>26</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>-</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+   </widget>
+   <addaction name="menu"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>

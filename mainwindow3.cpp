@@ -89,7 +89,7 @@ void mainwindow3::on_pushButton_2_clicked()
     QString name=ui->name->text();
     QString price=ui->Price->text();
     QString milk=ui->milk->text();
-    QString sql_add=QString("INSERT INTO `workers`.`cows` (`Id`, `Name`, `Price`, `Milk`) VALUES (NULL, 'корова4', '12', '1');");
+    QString sql_add=QString("INSERT INTO `workers`.`cows` (`Id`, `Name`, `Price`, `Milk`) VALUES (NULL, 'Мурка', '10000', '20');");
     QSqlQuery query(*this->db);
     query.exec(sql_add);
     this->update();

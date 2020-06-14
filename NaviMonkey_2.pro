@@ -27,7 +27,6 @@ HEADERS += \
     mainwindow3.h
 
 FORMS += \
-    AddData.ui \
     mainwindow1.ui \
     mainwindow2.ui \
     mainwindow3.ui

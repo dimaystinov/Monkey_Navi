@@ -8,7 +8,7 @@ MainWindow1::MainWindow1(QWidget *parent)
     , ui(new Ui::MainWindow1)
 {
     ui->setupUi(this);
-    this->setWindowTitle("WelCome NaviMonkey");
+    this->setWindowTitle("Молокозавод");
     QSettings setting(QCoreApplication::applicationDirPath()+"/Mysql.ini", QSettings::IniFormat);
     setting.beginGroup("set_jojo");
     ui->address->setText( setting.value("address").toString());
